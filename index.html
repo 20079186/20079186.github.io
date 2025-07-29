@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gift Registry</title>
+  <title>Twinkle Twinkle Little Star Baby Shower Gift Registry</title>
   <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Segoe UI', Arial, sans-serif; background: #fff8e1; color: #24201f; max-width: 700px; margin: auto; padding: 2rem; }
-    h1 { color: #ac8a36; }
-    .embed-form { margin-top: 2rem; }
+    body {
+      font-family: 'Quicksand', Arial, sans-serif;
+      background: linear-gradient(135deg, #fff8e1 0%, #ffe0fb 70%);
+      color: #374151;
+      max-width: 650px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(148, 128, 90, 0.08);
+      position: relative;
+      min-height: 100vh;
+    }
+    h1 {
+      color: #ac8a36;
+      letter-spacing: 1px;
+      font-size: 2.3rem;
+      margin-bottom: 0.4rem;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      margin-bottom: 1.6rem;
+      color: #706a51;
+    }
+    .stars {
+      position: absolute;
+      right: 10px; top: 30px;
+      font-size: 2.1rem;
+      color: #ecca76;
+      pointer-events: none;
+      user-select: none;
+    }
+    .moon {
+      position: absolute;
+      left: 10px; top: 42px;
+      font-size: 2.6rem;
+      color: #fbe7a2;
+      pointer-events: none;
+      user-select: none;
+    }
+    .embed-form {
+      background: #fcf6df;
+      border-radius: 14px;
+      box-shadow: 0px 3px 10px 0px #f5e3b4a0;
+      margin: 2rem 0 1rem;
+      padding: 1.5rem 0.7rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1.2rem; }
+      .embed-form { padding: 1rem 0.2rem; }
+    }
   </style>
 </head>
 <body>
-  <h1>Our Gift Registry</h1>
-  <p>Welcome! Please check off any gifts you'd like to give using the form below.</p>
+  <div class="moon">🌙</div>
+  <div class="stars">✨⭐️</div>
+  <h1>Twinkle Twinkle, Little Star...</h1>
+  <p class="subtitle">
+    Please help us celebrate our baby shower by choosing a gift from our special wish list!  
+    <br/>Just check off what you'd like to bring below:
+  </p>
   <div class="embed-form">
-    <!-- Paste your Typeform or Airtable embed code BELOW this comment -->
+    <!-- Paste your Typeform or Airtable form embed code BELOW this comment -->
+    <!-- Example: <iframe src="YOUR_TYPEFORM_OR_AIRTABLE_URL" width="100%" height="600" style="border:none;"></iframe> -->
   </div>
+  <p style="font-size:1rem; color:#998d64; text-align:center; margin-top:1.9rem;">
+    Thank you for your love and support! ✨💛
+  </p>
 </body>
 </html>
